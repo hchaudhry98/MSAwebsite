@@ -27,6 +27,8 @@ body {
   font-size: 3rem;
 }
 
+
+
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -231,8 +233,8 @@ h1{
 }
 
 .portfolio-item {
-  display: block;
-  position: relative;
+  display: center;
+  position: absolute;
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
@@ -294,7 +296,7 @@ h1{
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(10, 52, 28, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
