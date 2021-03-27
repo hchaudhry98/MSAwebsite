@@ -21,6 +21,7 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  
 }
 
 .content-section-heading h2 {
@@ -375,5 +376,9 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+      /*
+   color: #ecb807 !important;
+ */ color: #0000ff  !important;
 }
+ /* This is where im putting a test code all under here */
+ 
