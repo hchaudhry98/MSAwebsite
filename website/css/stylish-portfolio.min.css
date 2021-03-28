@@ -17,10 +17,52 @@
    background-color: green;
  }
  .content-section{
-   padding-top:7.5rem;
+
+   padding-top:7.5rem;/* 18 15 */
    padding-bottom:7.5rem;
+
    background-color:green;
+
  }
+
+ .content-section-mission{
+
+   padding-top:18rem;/* 18 15 */
+   padding-bottom:15rem;
+
+   background-color:green;
+
+ }
+
+ .column{
+   float:left;
+   width: 50%;
+   padding: 20px;
+ }
+ .row::after{
+   content:"";
+   clear: both;
+   display: table;
+ }
+
+ .column-1{
+   float:left;
+   width: 20%;
+   height: 50%;
+   padding: 5px;
+ }
+ .row-1::after{
+   content:"";
+   clear: both;
+   display: table;
+ }
+
+ .social-media{
+   width: 60%;
+   height: 20%;
+   padding: 50px;
+ }
+
  .content-section-heading h2{
    font-size:3rem
  }
@@ -31,6 +73,7 @@
  h1,h2,h3,h4,h5,h6{
    font-weight:500;
  }
+
   h1{
     font-color:white;
   }
@@ -144,6 +187,7 @@
   color:#fff;
   background:0 0
 }
+
 #sidebar-wrapper.active{
   right:250px;
   width:250px;
@@ -283,6 +327,10 @@ a:active,a:focus,a:hover{
 }
 .bg-primary{
   background-color:#0A341C!important
+}
+.bg-mission{
+  background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/mission.jpg);
+  background-size: 100% 100%;
 }
 .text-primary{
   color:#157420!important
