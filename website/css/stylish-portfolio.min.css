@@ -19,7 +19,9 @@
  .content-section{
 
    padding-top:7.5rem;/* 18 15 */
-   padding-bottom:7.5rem;
+   padding-bottom:3rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
 
    background-color:green;
 
@@ -33,6 +35,8 @@
    background-color:green;
 
  }
+
+
 
  .column{
    float:left;
@@ -57,7 +61,19 @@
    display: table;
  }
 
+.service-column{
+  float:left;
+  width:33.33%;
+  padding:20px;
+}
 
+#tech{
+  background-color: white;
+}
+
+#services{
+  background-color: white;
+}
 
  .content-section-heading h2{
    font-size:3rem
@@ -333,4 +349,10 @@ a:active,a:focus,a:hover{
 }
 .text-secondary{
   color:#ecb807!important
+}
+.text-green{
+  color:#0A341C!important
+}
+.text-dark{
+  color: black!important
 }

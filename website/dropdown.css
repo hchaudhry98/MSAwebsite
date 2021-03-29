@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.dropdown-content a:hover {background-color: black;}
+
 
 #sidebar-wrapper{
   background-color: black;
@@ -30,5 +30,7 @@
   display: block;
 }
 
-
+.dropdown-content a:hover {
+  background-color: black!important
+}
 .dropdown:hover .dropdown-content {display: block;}
