@@ -6,11 +6,16 @@
  */
  body,html{
    width:100%;
-   height:100%
+   height:100%;
  }
 
  body{
-   font-family:'David'
+   font-family:'David';
+ }
+
+ table, th, td {
+   border:1px solid green;
+   text-align: left;
  }
  .btn-xl{
    padding:1.25rem 2.5rem;
@@ -132,7 +137,7 @@
     height:auto;
     padding-top:8rem;
     padding-bottom:8rem;
-    background:url(../img/msabg2.png);
+    background:url(../img/msabg3.png);
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover
@@ -356,6 +361,9 @@ a:active,a:focus,a:hover{
 }
 .text-dark{
   color: black!important
+}
+.logo{
+  display:none;
 }
 
 #Upcoming{
