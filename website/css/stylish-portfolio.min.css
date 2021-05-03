@@ -79,6 +79,9 @@
 #services{
   background-color: white;
 }
+.onelight{
+  background-image: url("img/mission.jpg");
+}
 
  .content-section-heading h2{
    font-size:3rem
