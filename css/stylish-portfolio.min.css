@@ -46,7 +46,7 @@
  .column{
    float:left;
    width: 50%;
-   padding: 20px;
+   padding: 10px;
  }
  .row::after{
    content:"";
@@ -352,6 +352,20 @@ a:active,a:focus,a:hover{
 .bg-mission{
   background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/mission.jpg);
   background-size: 100% 100%;
+}
+.bg-donate{
+  background-image: url(../img/donate.jpg);
+  height: 100%;
+  background-size: 100% 100%;
+}
+.bg-donate-color{
+  color:#1c7b45!important
+}
+.text-white{
+  color: white!important
+}
+.text-yellow{
+  color: #ffffc0!important
 }
 .text-primary{
   color:#157420!important
