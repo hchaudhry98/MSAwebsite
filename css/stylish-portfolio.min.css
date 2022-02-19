@@ -387,6 +387,7 @@ a:active,a:focus,a:hover{
   display:block;
   position:relative;
   overflow:hidden;
+  padding-right: 15px;
   margin:auto auto 1rem
 }
 @media (min-width:992px){
