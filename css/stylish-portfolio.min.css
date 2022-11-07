@@ -41,6 +41,14 @@ table, th, td {
 
 }
 
+/* This centers the members divs*/
+/*.member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
 .column{
   float:left;
   width: 50%;
@@ -93,7 +101,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
  h1{
-   font-color:white;
+   font-color:white;  /*change font-color to color?*/
  }
  .text-faded{
    color:rgba(255,255,255,.7)
