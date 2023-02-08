@@ -1,0 +1,24 @@
+#header {
+  height: 100%;
+  width: 100%;
+}
+
+.header-container {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+}
+
+#header-title {
+  text-align: center;
+}
+
+#hadith-container {
+  width: 65%;
+  background-color: blue;
+}
+
+#prayer-container {
+  width: 35%;
+  background-color: red;
+}
